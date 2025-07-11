@@ -1,5 +1,5 @@
 
-
+/*font initialization*/
 .inter-black {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -19,6 +19,7 @@
     color: #000000;
 }
 
+/*button initialization*/
 .btn-primary{
     background-color: #4E47FF;
     font-weight: bold;
@@ -29,10 +30,13 @@
     border: none;
     margin-bottom: 100px;
 }
+
 button:hover{
     background-color: green;
     font-size: 120%;
 }
+
+/*nav initialization*/
 nav{
     display: flex;
     align-items: center;
@@ -61,6 +65,7 @@ section{
     
 }
 
+/*banner initialization*/
 .banner-title{
     font:bold;
     font-size: 32px;
@@ -96,6 +101,7 @@ p{
     margin: 0;
 }
 
+/*productive initialization*/
 .productive-content-1{
     font-weight: bold;
     font-size: 80px;
@@ -121,6 +127,7 @@ p{
     margin:auto;
 }
 
+/*review initialization*/
 .review{
     max-width: 1140px;
     margin: 100px auto 100px;
@@ -186,6 +193,7 @@ div ul li{
     color: #B3B3B3;
 }
 
+/*newsletter initialization*/
 .newsletter{
     display: flex;
     max-width: 1100px;
@@ -221,4 +229,45 @@ form label{
 .textarea-font{
     font-weight: normal;
     font-size: 14px;
+}
+
+.btn-form{
+    width: 350px;
+}
+
+/*footer initialization*/
+footer div ul{
+    display: flex;
+}
+
+footer div ul li{
+    margin-right: 30px;
+}
+
+footer div ul a{
+    text-decoration: none;
+}
+
+.footer-content{
+    max-width: 700px;
+    padding: 0 450px 30px 450px;
+    text-align: center;
+}
+
+.footer-heading{
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.footer-description{
+    font-weight: normal;
+    font-size: 16px;
+    color: #8987A1;
+}
+
+.footer-link{
+    font-weight: normal;
+    font-size: 16px;
+    color: #8987A1;
 }
