@@ -1,14 +1,11 @@
 
 
-
-body{
-    background-image: url('images');
-}
 .inter-black {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
+
 
 .text-primary{
     color: #4E47FF;
@@ -22,6 +19,11 @@ body{
     padding: 10px 20px;
     border-radius: 10px; 
     border: none;
+    margin-bottom: 100px;
+}
+button:hover{
+    background-color: green;
+    font-size: 120%;
 }
 nav{
     display: flex;
@@ -47,15 +49,36 @@ nav li a{
 
 section{
     margin: 100px 400px 50px;
+    text-align: center;
     
 }
 
 .banner-title{
     font:bold;
-    font-size: 40px;
+    font-size: 32px;
+    color: #252432; 
     /*text-align: center;*/
 }
-section{
-    text-align: center;
+
+.banner{
+    display: flex;
+    max-width: 800;
+    justify-content: space-between;
+    margin: 0 160px 0 150px;
+
+}
+.description{
+    font:normal;
+    font-size: 18px;
+    color: #252432; 
+    color: 
 }
 
+.banner-pic{
+    width: 400px;
+    height: 250px;
+    border-radius: 30px;
+}
+.banner-contant{
+    max-width: 350px;
+}
