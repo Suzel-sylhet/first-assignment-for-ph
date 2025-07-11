@@ -1,6 +1,9 @@
 
 
 
+body{
+    background-image: url('images');
+}
 .inter-black {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -17,7 +20,8 @@
     font-size: 16px;
     color: white;
     padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: 10px; 
+    border: none;
 }
 nav{
     display: flex;
@@ -40,6 +44,18 @@ nav li a{
     font-size: 24;
 }
 
-.su-color{
-    columns: #ffffff;
+
+section{
+    margin: 100px 400px 50px;
+    
 }
+
+.banner-title{
+    font:bold;
+    font-size: 40px;
+    /*text-align: center;*/
+}
+section{
+    text-align: center;
+}
+
