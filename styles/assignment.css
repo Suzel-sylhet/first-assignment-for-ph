@@ -45,8 +45,9 @@ nav{
 }
 
 .nav-title{
-    font:900;
-    font-size: 34;
+    font: 900px;;
+    font-size: 32px;
+    margin-top: -60px;
 }
 
 nav ul li{
@@ -58,10 +59,10 @@ nav li a{
     font-size: 24;
 }
 
-
 section{
-    margin: 100px 400px 50px;
+   /* margin: 100px 400px 50px;*/
     text-align: center;
+    margin: 100px 150px 100px 150px;
     
 }
 
@@ -83,6 +84,7 @@ section{
 .description{
     font:normal;
     font-size: 18px;
+    margin-bottom: 15px;
     /*color: #252432;*/
 }
 
